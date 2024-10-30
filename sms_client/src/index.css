@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Athletics;
+  src: url(/fonts/Athletics\ Regular.otf);
+}
+
+@font-face {
+  font-family: Athletics-Bold;
+  src: url(/fonts/Athletics\ Bold.otf);
+}
+
+:root {
+  font-family: Athletics;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(222, 219, 219);
+  border-radius: 50px;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #043260;
+  border-radius: 50px;
+  border: 1px solid rgb(222, 219, 219);
+}
